@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcourse",
+  "version": "1.0.0",
+  "description": "tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tailwindcss -i src/styles.css -o public/output.css --watch"
+  },
+  "author": "bashir",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
